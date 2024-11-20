@@ -9,3 +9,8 @@ This project predicts hospital readmissions using patient data. It uses a Random
 ## How to Use
 1. Clone this repository.
 2. Install dependencies:
+
+#bash
+pip install -r requirements.txt
+python model_training.py
+streamlit run app.py
